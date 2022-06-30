@@ -28,19 +28,11 @@ export default function Faq () {
         },
     ]
     
-    const [show, setShowAnswer] = useState(false);
-
-    const handleClick = () => {
-        console.log("click !")
-    }
-
 
     const listOfQuestionAnswer = datas.map((data, index) => {
         return <QuestionAnswer question= {data.question}
                                answer = {data.answer} 
                                key = {index+1 }
-                               clicked = {handleClick}
-                               showAnswer = {true}
                 />
     })
 

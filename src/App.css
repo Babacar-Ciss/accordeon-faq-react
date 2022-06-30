@@ -6,3 +6,10 @@
   margin: 100px auto;
 }
 
+body {
+  background-image: linear-gradient(#B068E9, #6463E7 );
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 14px;
+}
