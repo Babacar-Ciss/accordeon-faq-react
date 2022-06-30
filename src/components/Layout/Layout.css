@@ -1,0 +1,10 @@
+.Layout {
+    position: relative;
+    display: flex;
+    width: 920px;
+    height: 509px;
+    min-height: 509px;
+    margin: 100px auto;
+    border-radius: 15px;
+    background-color: #ececec;
+}

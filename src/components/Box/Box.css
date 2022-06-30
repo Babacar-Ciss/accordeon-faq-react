@@ -1,0 +1,5 @@
+.Box {
+    position: absolute;
+    top: calc(460px - 50%);
+    left: -92px;
+}  

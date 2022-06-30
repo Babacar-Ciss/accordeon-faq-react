@@ -1,0 +1,61 @@
+.QuestionAnswer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -13px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.Question {
+    font-size: 14px;
+    color: #4B4C5F;
+    width: 251px;
+    height: 17px;
+    margin-bottom: 0;
+    flex-grow: 2;
+    transition: color .2s;
+}
+
+.Question:hover {
+    color: #F47B56;
+}
+
+
+.Arrow {
+    width: 16px;
+    height: 8px;
+    align-self: center;
+    margin-right: 16px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-bottom: -20px;
+    background-image: url(../../assets/images/icon-arrow-down.svg);
+    background-repeat: no-repeat;
+    transition: all .2s;
+}
+
+.Answer {
+    font-weight: 400;
+    margin-top: 11px;
+    color: #787887;
+    flex-grow: 100; 
+    margin-bottom: 0;
+    animation: fadeInOut .5s ;
+    flex-basis: 100%;
+}
+
+
+.Line-bottom {
+    width: 100%;
+    height: 1px;
+    /* background-color: #E8E8EA; */
+    background-color: greenyellow;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+@keyframes fadeInOut {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

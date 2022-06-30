@@ -1,0 +1,15 @@
+.LogoWoman {
+    width: 472px;
+    height: 359px;
+    margin: 70px 0 0 -84px;
+
+}
+
+.IllustrativePictureStyle  {
+    position: relative;
+    width: 472px;
+    background-image: url('../../assets/images/bg-pattern-desktop.svg') ;
+    background-repeat: no-repeat;
+    background-position: -570px -300px;
+    overflow: hidden;
+}
