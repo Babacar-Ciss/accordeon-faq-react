@@ -2,7 +2,7 @@ import "../QuestionAnswer/QuestionAnswer.css";
 import { useState } from "react"
 
 export default function QuestionAnswer (props) {
-    
+   
     const [showAnswer, setShowAnswer] = useState(false);
 
     return (
@@ -11,8 +11,7 @@ export default function QuestionAnswer (props) {
                 !showAnswer ? <p className="Question"> {props.question}</p> 
                            : <p className="Question active"> {props.question}</p> 
             }
-            
-        
+                  
             {
                 showAnswer ? <div className="Arrow" > </div> 
                            : <div className="Arrow rotate"> </div>
